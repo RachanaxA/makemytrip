@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-15T10:20:26 IST" name="Suite" finished-at="2024-02-15T10:21:08 IST" duration-ms="41755">
+    <groups>
+      <group name="smoke,regression">
+        <method signature="TC02_MmtResultPageTest.selectLowestPriceTest()[pri:8, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" name="selectLowestPriceTest" class="testCases.TC02_MmtResultPageTest"/>
+        <method signature="TC04_SenderDetailsTest.getAlertMsgTest()[pri:12, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" name="getAlertMsgTest" class="testCases.TC04_SenderDetailsTest"/>
+        <method signature="TC04_SenderDetailsTest.getNumberOfPeopleTest()[pri:14, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" name="getNumberOfPeopleTest" class="testCases.TC04_SenderDetailsTest"/>
+      </group> <!-- smoke,regression -->
+      <group name="regression">
+        <method signature="TC02_MmtResultPageTest.selectSUVTest()[pri:7, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" name="selectSUVTest" class="testCases.TC02_MmtResultPageTest"/>
+        <method signature="TC02_MmtResultPageTest.selectGiftTest()[pri:9, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" name="selectGiftTest" class="testCases.TC02_MmtResultPageTest"/>
+        <method signature="TC03_GiftCardsTest.selectWeddingCardTest()[pri:10, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" name="selectWeddingCardTest" class="testCases.TC03_GiftCardsTest"/>
+        <method signature="TC04_SenderDetailsTest.inputSenderandrecipientsDetailsTest()[pri:11, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" name="inputSenderandrecipientsDetailsTest" class="testCases.TC04_SenderDetailsTest"/>
+        <method signature="TC04_SenderDetailsTest.goToHotelsTest()[pri:13, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" name="goToHotelsTest" class="testCases.TC04_SenderDetailsTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC01_MmtHomeTest.clickOnCabsTest()[pri:1, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" name="clickOnCabsTest" class="testCases.TC01_MmtHomeTest"/>
+        <method signature="TC01_MmtHomeTest.clickOnSearchTest()[pri:6, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" name="clickOnSearchTest" class="testCases.TC01_MmtHomeTest"/>
+      </group> <!-- sanity -->
+      <group name="smoke,sanity">
+        <method signature="TC01_MmtHomeTest.inputfromCityTest()[pri:2, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" name="inputfromCityTest" class="testCases.TC01_MmtHomeTest"/>
+        <method signature="TC01_MmtHomeTest.inputToCityTest()[pri:3, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" name="inputToCityTest" class="testCases.TC01_MmtHomeTest"/>
+        <method signature="TC01_MmtHomeTest.inputDateTest()[pri:4, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" name="inputDateTest" class="testCases.TC01_MmtHomeTest"/>
+        <method signature="TC01_MmtHomeTest.inputTimeTest()[pri:5, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" name="inputTimeTest" class="testCases.TC01_MmtHomeTest"/>
+      </group> <!-- smoke,sanity -->
+    </groups>
+    <test started-at="2024-02-15T10:20:26 IST" name="Test" finished-at="2024-02-15T10:21:08 IST" duration-ms="41755">
+      <class name="testCases.TC04_SenderDetailsTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" started-at="2024-02-15T10:20:26 IST" name="setup" finished-at="2024-02-15T10:20:35 IST" duration-ms="8627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickOnCabsTest()[pri:1, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" started-at="2024-02-15T10:20:35 IST" name="clickOnCabsTest" finished-at="2024-02-15T10:20:40 IST" duration-ms="5517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCabsTest -->
+        <test-method signature="inputfromCityTest()[pri:2, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" started-at="2024-02-15T10:20:41 IST" name="inputfromCityTest" finished-at="2024-02-15T10:20:42 IST" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputfromCityTest -->
+        <test-method signature="inputToCityTest()[pri:3, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" started-at="2024-02-15T10:20:42 IST" name="inputToCityTest" finished-at="2024-02-15T10:20:43 IST" duration-ms="1055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputToCityTest -->
+        <test-method signature="inputDateTest()[pri:4, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" started-at="2024-02-15T10:20:43 IST" name="inputDateTest" finished-at="2024-02-15T10:20:44 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputDateTest -->
+        <test-method signature="inputTimeTest()[pri:5, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" started-at="2024-02-15T10:20:44 IST" name="inputTimeTest" finished-at="2024-02-15T10:20:45 IST" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputTimeTest -->
+        <test-method signature="clickOnSearchTest()[pri:6, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" started-at="2024-02-15T10:20:45 IST" name="clickOnSearchTest" finished-at="2024-02-15T10:20:48 IST" duration-ms="2955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSearchTest -->
+        <test-method signature="selectSUVTest()[pri:7, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" started-at="2024-02-15T10:20:48 IST" name="selectSUVTest" finished-at="2024-02-15T10:20:51 IST" duration-ms="2420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSUVTest -->
+        <test-method signature="selectLowestPriceTest()[pri:8, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" started-at="2024-02-15T10:20:51 IST" name="selectLowestPriceTest" finished-at="2024-02-15T10:20:52 IST" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLowestPriceTest -->
+        <test-method signature="selectGiftTest()[pri:9, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" started-at="2024-02-15T10:20:53 IST" name="selectGiftTest" finished-at="2024-02-15T10:20:55 IST" duration-ms="2679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectGiftTest -->
+        <test-method signature="selectWeddingCardTest()[pri:10, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" started-at="2024-02-15T10:20:56 IST" name="selectWeddingCardTest" finished-at="2024-02-15T10:20:58 IST" duration-ms="2243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectWeddingCardTest -->
+        <test-method signature="inputSenderandrecipientsDetailsTest()[pri:11, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" started-at="2024-02-15T10:20:58 IST" name="inputSenderandrecipientsDetailsTest" finished-at="2024-02-15T10:21:00 IST" duration-ms="1930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputSenderandrecipientsDetailsTest -->
+        <test-method signature="getAlertMsgTest()[pri:12, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" started-at="2024-02-15T10:21:00 IST" name="getAlertMsgTest" finished-at="2024-02-15T10:21:01 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlertMsgTest -->
+        <test-method signature="goToHotelsTest()[pri:13, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" started-at="2024-02-15T10:21:01 IST" name="goToHotelsTest" finished-at="2024-02-15T10:21:02 IST" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHotelsTest -->
+        <test-method signature="getNumberOfPeopleTest()[pri:14, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" started-at="2024-02-15T10:21:02 IST" name="getNumberOfPeopleTest" finished-at="2024-02-15T10:21:06 IST" duration-ms="4158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNumberOfPeopleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC04_SenderDetailsTest@78e4deb0]" started-at="2024-02-15T10:21:06 IST" name="tearDown" finished-at="2024-02-15T10:21:08 IST" duration-ms="1167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC04_SenderDetailsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
